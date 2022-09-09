@@ -42,7 +42,9 @@ h4 {
     margin: 10px auto;
 }
 
-.urgently, .threeHours, .plan{
+.urgently,
+.threeHours,
+.plan {
     background: #1F2025;
     box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.25), inset 0px 0px 2px rgba(255, 255, 255, 0.2);
     border-radius: 10px;
@@ -50,4 +52,41 @@ h4 {
     height: 88px;
     display: grid;
     place-content: center;
+}
+
+.deliveryMetodBlocks>div {
+    background: #202127;
+    box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.25), inset 0px 0px 2px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 62.65px;
+    height: 62.65px;
+    display: grid;
+    place-content: center;
+}
+
+.deliveryMetodBlocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.deliveryMetod p {
+    color: #878789;
+}
+
+.productData{
+    margin: 10px auto;
+}
+.productData div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px 12px 16px;
+    gap: 4px;
+    background: #1F2025;
+    box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.25), inset 0px 0px 2px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
 }
