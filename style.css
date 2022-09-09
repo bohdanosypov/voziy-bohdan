@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0C0D12;
+    padding: 35px 10px;
+}
+
+h4 {
+    color: #50BABD;
+}
+
+.dropdownDataList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px 12px 16px;
+    gap: 4px;
+    margin: 10px auto;
+    background: #1F2025;
+    box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.25), inset 0px 0px 2px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.customerData p {
+    color: #F6FFFF;
+}
+
+.point {
+    color: #878789;
+}
+
+.deadlineBlocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px auto 12px auto;
+    margin: 10px auto;
+}
+
+.urgently, .threeHours, .plan{
+    background: #1F2025;
+    box-shadow: inset 0px 0px 2px rgba(255, 255, 255, 0.25), inset 0px 0px 2px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    width: 112px;
+    height: 88px;
+    display: grid;
+    place-content: center;
+}
